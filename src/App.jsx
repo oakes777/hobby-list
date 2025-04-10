@@ -3,7 +3,8 @@ import React from "react";
 import Hobbies from "./components/Hobbies.jsx";
 //function App contains data array and sets up template for our HTML/webpage
 function App() {
-  //our data array
+  //our data array (we could have made this code cleaner
+  //by importing the array list from /data)
   const hobbyList = [
     { name: "Cooking", description: "Plant-based recipes." },
     {
