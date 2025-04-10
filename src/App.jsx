@@ -1,7 +1,9 @@
+//import React and Hobbies
 import React from "react";
 import Hobbies from "./components/Hobbies.jsx";
-
+//function App contains data array and sets up template for our HTML/webpage
 function App() {
+  //our data array
   const hobbyList = [
     { name: "Cooking", description: "Plant-based recipes." },
     {
@@ -10,7 +12,7 @@ function App() {
     },
     { name: "Philosophy", description: "Post-modern relativism for realists." },
   ];
-
+  //our return sets up the HTML/webpage template
   return (
     <div>
       <h1>My Hobbies</h1>
@@ -18,5 +20,5 @@ function App() {
     </div>
   );
 }
-
+//export App for use with our components
 export default App;
